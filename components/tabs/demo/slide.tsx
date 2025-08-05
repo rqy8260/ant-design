@@ -14,8 +14,8 @@ const App: React.FC = () => {
   return (
     <div>
       <Radio.Group onChange={handleModeChange} value={mode} style={{ marginBottom: 8 }}>
-        <Radio.Button value="top">Horizontal</Radio.Button>
-        <Radio.Button value="left">Vertical</Radio.Button>
+        <Radio.Button value="top">授权给用户身份</Radio.Button>
+        <Radio.Button value="left">授权给应用身份</Radio.Button>
       </Radio.Group>
       <Tabs
         defaultActiveKey="1"
